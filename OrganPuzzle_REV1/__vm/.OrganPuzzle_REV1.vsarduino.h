@@ -66,5 +66,4 @@ typedef void *__builtin_va_list;
 #undef PSTR
 #define PSTR(string_literal) ((const PROGMEM char *)(string_literal))
 #include "OrganPuzzle_REV1.ino"
-#include "OrganPuzzle_REV0.ino"
 #endif

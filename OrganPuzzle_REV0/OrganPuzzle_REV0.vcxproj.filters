@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="_core">
+      <UniqueIdentifier>{7bd3de58-f5bd-4698-baa4-0e7d8b68a098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries">
+      <UniqueIdentifier>{2c2ca1b0-eea3-437a-8a21-644afe29814b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\Music_Shield-master">
+      <UniqueIdentifier>{09c011dd-efa2-4987-9c44-b3416ce160db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\SD">
+      <UniqueIdentifier>{55a6f872-7811-498a-aec3-ea273750c07f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\SD\src">
+      <UniqueIdentifier>{334f81ef-2b85-4b9f-bc37-05f845999e5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\SD\src\utility">
+      <UniqueIdentifier>{917112a3-5561-4764-a2b5-9da2f46cf3c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\SPI">
+      <UniqueIdentifier>{c1409a8c-b5ee-4b0c-8a20-0cfe31009224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\SPI\src">
+      <UniqueIdentifier>{5c89c2fc-2c83-4106-b568-0fef5d3bb13b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\SoftReset">
+      <UniqueIdentifier>{c0ad5b3c-92f7-4d69-b2e4-51ebd48343f7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\wiring_pulse.S">
+      <Filter>_core</Filter>
+    </None>
+    <None Include="OrganPuzzle_REV1.ino" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__vm\.OrganPuzzle_REV0.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Arduino.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\binary.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Client.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial_private.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\IPAddress.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\new.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\PluggableUSB.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Print.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Printable.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Server.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Stream.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Udp.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\USBAPI.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\USBCore.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\USBDesc.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\WCharacter.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\wiring_private.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\WString.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\standard\pins_arduino.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexm\Documents\Arduino\libraries\Music_Shield-master\MusicPlayer.h">
+      <Filter>_libraries\Music_Shield-master</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexm\Documents\Arduino\libraries\Music_Shield-master\pins_config.h">
+      <Filter>_libraries\Music_Shield-master</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexm\Documents\Arduino\libraries\Music_Shield-master\vs10xx.h">
+      <Filter>_libraries\Music_Shield-master</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\libraries\SD\src\SD.h">
+      <Filter>_libraries\SD\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\libraries\SD\src\utility\FatStructs.h">
+      <Filter>_libraries\SD\src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\libraries\SD\src\utility\Sd2Card.h">
+      <Filter>_libraries\SD\src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\libraries\SD\src\utility\Sd2PinMap.h">
+      <Filter>_libraries\SD\src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\libraries\SD\src\utility\SdFat.h">
+      <Filter>_libraries\SD\src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\libraries\SD\src\utility\SdFatmainpage.h">
+      <Filter>_libraries\SD\src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\libraries\SD\src\utility\SdFatUtil.h">
+      <Filter>_libraries\SD\src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\libraries\SD\src\utility\SdInfo.h">
+      <Filter>_libraries\SD\src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\SPI\src\SPI.h">
+      <Filter>_libraries\SPI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\alexm\Documents\Arduino\libraries\SoftReset\SoftReset.h">
+      <Filter>_libraries\SoftReset</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\abi.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\CDC.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial0.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial1.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial2.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\HardwareSerial3.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\hooks.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\IPAddress.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\main.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\new.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\PluggableUSB.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Print.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Stream.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\Tone.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\USBCore.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\WInterrupts.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\wiring.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\wiring_analog.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\wiring_digital.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\wiring_pulse.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\wiring_shift.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\WMath.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\WString.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexm\Documents\Arduino\libraries\Music_Shield-master\MusicPlayer.cpp">
+      <Filter>_libraries\Music_Shield-master</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexm\Documents\Arduino\libraries\Music_Shield-master\vs10xx.cpp">
+      <Filter>_libraries\Music_Shield-master</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\libraries\SD\src\File.cpp">
+      <Filter>_libraries\SD\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\libraries\SD\src\SD.cpp">
+      <Filter>_libraries\SD\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\libraries\SD\src\utility\Sd2Card.cpp">
+      <Filter>_libraries\SD\src\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\libraries\SD\src\utility\SdFile.cpp">
+      <Filter>_libraries\SD\src\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\libraries\SD\src\utility\SdVolume.cpp">
+      <Filter>_libraries\SD\src\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\SPI\src\SPI.cpp">
+      <Filter>_libraries\SPI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\alexm\Documents\Arduino\libraries\SoftReset\SoftReset.cpp">
+      <Filter>_libraries\SoftReset</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
